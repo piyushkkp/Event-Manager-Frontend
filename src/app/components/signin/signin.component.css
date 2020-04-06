@@ -1,0 +1,23 @@
+
+
+.form-group-1 {
+  width: 40%;
+  position: static;
+  margin-left: 400px;
+  margin-top: 80px;
+}
+
+.form-group-2 {
+  width: 40%;
+  position: static;
+  margin-left: 400px;
+  margin-top: 20px;
+}
+
+
+.btn {
+  width: 40%;
+  margin-left: 400px;
+  margin-top: 20px;
+}
+

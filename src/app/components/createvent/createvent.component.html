@@ -1,0 +1,20 @@
+<div class="auth-wrapper">
+  <form class="form-createevent" [formGroup]="eventForm" (ngSubmit)="createEvent()">
+      <h3 class="h3 mb-3 font-weight-normal text-center">Create Event</h3>
+      <div class="form-group-1">
+          <label>Event Name</label>
+          <input type="text" class="form-control" formControlName="eventName" placeholder="Enter Event Name" required>
+      </div>
+      <div class="form-group-2">
+          <label>Event Details</label>
+          <input type="eventDetails" class="form-control" formControlName="eventDetails" placeholder="Enter event details" required>
+      </div>
+      <div class="form-group-3">
+          <label>Venue</label>
+          <input type="text" class="form-control" formControlName="venue" placeholder="Venue" required>
+      </div>
+      <button type="submit" class="btn btn-block btn-primary">Create Event</button>
+      <button type="submit" class="btn btn-block btn-primary" routerLinkActive="active" routerLink='/event-list'>Show EventsList</button>
+  </form>
+</div>
+

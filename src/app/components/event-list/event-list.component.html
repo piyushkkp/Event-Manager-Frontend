@@ -1,0 +1,35 @@
+<div class="container custom-container-2">
+
+  <!-- Show it when there is no event -->
+  <div class="no-data text-center" *ngIf="Event.length == 0">
+    <p>There is no event added yet!</p>
+  </div>
+
+  <!-- Events list table, it hides when there is no event -->
+  <div *ngIf="Event.length !== 0">
+    <h3 class="mb-3 text-center">Event List</h3>
+
+    <div class="col-md-12 text-center">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Event Name</th>
+            <th scope="col">Details</th>
+            <th scope="col">Venue</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let event of Event">
+            <td>{{event.eventName}}</td>
+            <td>{{event.eventDetails}}</td>
+            <td>{{event.venue}}</td>
+            <td>
+          </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+</div>

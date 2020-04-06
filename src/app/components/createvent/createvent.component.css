@@ -1,0 +1,32 @@
+h3 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 0px;
+}
+
+.form-group-1 {
+  width: 40%;
+  position: static;
+  margin-left: 400px;
+  margin-top: 20px;
+}
+
+.form-group-2 {
+  width: 40%;
+  position: static;
+  margin-left: 400px;
+  margin-top: 20px;
+}
+
+.form-group-3 {
+  width: 40%;
+  position: static;
+  margin-left: 400px;
+  margin-top: 20px;
+}
+
+.btn {
+  width: 40%;
+  margin-left: 400px;
+  margin-top: 20px;
+}
